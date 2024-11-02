@@ -1,0 +1,8 @@
+# Naviguer vers le répertoire contenant vos fichiers Terraform
+cd /var/lib/jenkins/terraform/
+
+# Initialiser Terraform
+terraform init
+
+# Appliquer la configuration
+terraform apply -auto-approve
