@@ -23,7 +23,7 @@ resource "proxmox_vm_qemu" "debian_vm" {
   sockets     = 1
 
   disk {
-    size = "20G"
+    size = "32G"
     type = "scsi"
     storage = "nom-du-storage"
   }
